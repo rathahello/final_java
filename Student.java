@@ -7,6 +7,7 @@ public class Student extends Person {
 		this.schoolName = schoolName;
 		
 	}
+	// override from supper class
 	@Override
 	public void showSleepQuality() {
 		 if(nbOfSleepHours < 7) {
@@ -20,7 +21,7 @@ public class Student extends Person {
 		 }
 		 
 	}
-	
+	// override to string 
 	@Override
 	public String toString() {
 		return schoolName + " "+ name + " " + nbOfSleepHours;
