@@ -19,7 +19,9 @@ public class Student extends Person {
 		 if(nbOfSleepHours >= 9) {
 			 System.out.println("is probably");
 		 }
-		 
 	}
-
+	@Override
+	public String toString() {
+		return schoolName + " "+ name + " " + nbOfSleepHours;
+	}
 }
