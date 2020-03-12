@@ -21,11 +21,5 @@ public class Student extends Person {
 		 }
 		 
 	}
-	// override to string 
-	@Override
-	public String toString() {
-		return schoolName + " "+ name + " " + nbOfSleepHours;
-	}
-	
 
 }
